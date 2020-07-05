@@ -82,10 +82,6 @@
     <!-- Functions -->
     <rule ref="Generic.Functions.CallTimePassByReference"/>
     <rule ref="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions"/>
-    <rule ref="SlevomatCodingStandard.TypeHints.TypeHintDeclaration">
-        <!-- Allow PHPDoc with no additional information -->
-        <exclude name="SlevomatCodingStandard.TypeHints.TypeHintDeclaration.UselessDocComment"/>
-    </rule>
     <rule ref="Squiz.Functions.FunctionDuplicateArgument"/>
     <rule ref="Squiz.Functions.GlobalFunction"/>
 
